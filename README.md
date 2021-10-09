@@ -1,5 +1,3 @@
-# Class5-Python-Module-Week5
-
 # Week 5 Homework - OOP
 
 ## Question 1:
