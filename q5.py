@@ -21,7 +21,7 @@ class Bus(Vehicle):
         super().__init__(name, max_speed, millage)
         self.capacity=capacity
     def __str__(self):
-        return f'Bus {self.name} has max speed {self.max_speed} and millage {self.millage} with capacity {self.capacity}'
+        return super().__str__()+f' capacity: {self.capacity}'
     def update_capacity(self,update):
         self.capacity=update
 ve1=Vehicle('Veh X',220,10)
